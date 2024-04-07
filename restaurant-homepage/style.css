@@ -133,3 +133,30 @@ section a {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
+
+@media (max-width: 767px){
+  body{
+    width: 100%;
+  }
+
+  .promotion {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .columns {
+    grid-template-columns: 1fr;
+    grid-auto-rows: 1fr;
+    width: 90%;
+    margin: auto;
+  }
+
+  .img-container img {
+    display: block;
+    margin: auto;
+
+  }
+
+}
