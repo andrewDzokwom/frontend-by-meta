@@ -1,0 +1,135 @@
+html {
+  height: 100%;
+  width: 100%;
+
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header a {
+  text-decoration: none;
+  color: inherit;
+  height: 100%;
+  font-size: bold;
+}
+
+
+body {
+  min-height: 100vh;
+  margin: auto;
+  width: 90vw;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.header-logo {
+  width: 200px;
+  align-self: center;
+}
+
+nav {
+  display: flex;
+  background: #312525;
+  justify-content: center;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+/*this is ul tag*/
+.list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.list li {
+  list-style: none;
+  padding: 10px 5px;
+  margin-right: 5px;
+  color: white;
+}
+
+li:hover {
+  background-color: lightblue;
+  color: black;
+}
+
+.promotion {
+  background-image: url('./foodImage1.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 10px 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+
+.promotion>h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 10px;
+}
+
+.columns div {
+  overflow: hidden;
+
+}
+
+.columns>div {
+  border-radius: 10px;
+  background-color: #ede2c4;
+  padding: 10px 10px;
+}
+
+.columns h2 {
+  margin-bottom: 10px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+footer>div>img {
+  width: 50px;
+  margin-left: 10px;
+}
+
+.line {
+  width: 400px;
+  height: 2px;
+  background-color: black;
+}
+
+.copywriting {
+  text-align: right;
+}
+
+table {
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+section a {
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
